@@ -103,7 +103,7 @@ while player.health > 0 and bot.health > 0:
     player.perform_move(move_name, enemy=bot)
 
     if bot.health <= 0:
-        print("You defeated Azula!")
+        print("You defeated", bot_name)
         break
 
     # Bot's turn
